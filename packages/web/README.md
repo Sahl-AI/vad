@@ -19,4 +19,4 @@ Quick start:
 </script>
 ```
 
-See the [project home](https://github.com/ricky0123/vad) for more details.
+See the [project home](https://github.com/Sahl-AI/vad) for more details.
