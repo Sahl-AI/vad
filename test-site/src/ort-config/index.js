@@ -9,6 +9,11 @@ function getToggleButton() {
 async function main() {
   try {
     const myvad = await vad.MicVAD.new({
+      ortConfig: (ort) => {
+        ort.env.wasm.wasmPaths = {
+          "ort-wasm-simd.wasm": "/subpath/ort-wasm-simd.wasm",
+        }
+      },
       onSpeechStart: () => {
         console.log("Speech start")
       },
