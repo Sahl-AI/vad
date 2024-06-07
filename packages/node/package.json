@@ -11,8 +11,8 @@
     "voice-control",
     "offline-speech-recognition"
   ],
-  "homepage": "https://github.com/ricky0123/vad",
-  "version": "0.0.3",
+  "homepage": "https://github.com/Sahl-AI/vad",
+  "version": "0.0.2",
   "license": "ISC",
   "main": "dist/index.js",
   "scripts": {
